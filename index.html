@@ -108,7 +108,29 @@
 
     /* ── IDENTITY HEADER ── */
     .identity {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
       margin-bottom: 3rem;
+    }
+    .identity__content {
+      flex: 1;
+    }
+    .identity__avatar-wrap {
+      flex-shrink: 0;
+      width: 220px;
+      height: 220px;
+      filter: drop-shadow(0 4px 36px rgba(217,119,87,0.22));
+    }
+    .identity__avatar {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      object-position: center 12%;
+      display: block;
+      border-radius: 62% 38% 46% 54% / 60% 44% 56% 40%;
+      -webkit-mask-image: radial-gradient(ellipse 88% 88% at 50% 44%, black 32%, transparent 70%);
+      mask-image: radial-gradient(ellipse 88% 88% at 50% 44%, black 32%, transparent 70%);
     }
     .identity__mark {
       display: inline-flex;
@@ -456,6 +478,9 @@
     /* ── RESPONSIVE ── */
     @media (max-width: 580px) {
       body { padding: 2.5rem 1.25rem 4rem; }
+      .identity { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+      .identity__avatar-wrap { order: -1; width: 110px; height: 110px; align-self: center; }
+      .identity__avatar { width: 110px; height: 110px; }
       .grid-top { grid-template-columns: 1fr; }
       .card--sfm .card__body { grid-template-columns: 1fr; }
       .sfm-badge { text-align: left; margin-top: 1rem; }
@@ -467,14 +492,19 @@
 
   <!-- ── IDENTITY ── -->
   <header class="identity">
-    <div class="identity__mark">SS</div>
-    <h1 class="identity__name">Sat Singh</h1>
-    <p class="identity__role">Founder, AICV &middot; SunshineFM &middot; Palm Springs Coachella</p>
-    <p class="identity__mission">
-      Building the <strong>agentic startup ecosystem</strong> for the Coachella Valley —
-      structured intelligence for AI systems, community programs for people,
-      and daily radio from the desert.
-    </p>
+    <div class="identity__content">
+      <div class="identity__mark">SS</div>
+      <h1 class="identity__name">Sat Singh</h1>
+      <p class="identity__role">Founder, AICV &middot; SunshineFM &middot; Palm Springs Coachella</p>
+      <p class="identity__mission">
+        Building the <strong>agentic startup ecosystem</strong> for the Coachella Valley —
+        structured intelligence for AI systems, community programs for people,
+        and daily radio from the desert.
+      </p>
+    </div>
+    <div class="identity__avatar-wrap">
+      <img class="identity__avatar" src="/sat-may25-2026.jpeg" alt="Sat Singh — Founder, AICV and SunshineFM" width="220" height="220">
+    </div>
   </header>
 
   <!-- ── TOP ROW ── -->
