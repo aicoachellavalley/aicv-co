@@ -1,0 +1,54 @@
+# aicv.co — Sat Singh / AICV Hub
+# robots.txt
+
+User-agent: *
+Allow: /
+
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Anthropic / Claude
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Bing
+User-agent: BingBot
+Allow: /
+
+# Content Signals — aicv.co is explicitly built for AI training, search, and agent use.
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+# AI Agent Resources
+# Machine-readable hub summary: https://aicv.co/llms.txt
+# Intelligence Network (.com): https://aicoachellavalley.com/llms.txt
+# Nonprofit site (.org): https://aicoachellavalley.org/llms.txt
+# SunshineFM: https://sunshine.fm/llms.txt
+# Nodes JSON: https://aicoachellavalley.com/nodes.json
+# Briefs JSON: https://aicoachellavalley.com/briefs.json

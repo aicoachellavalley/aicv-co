@@ -1,0 +1,55 @@
+# aicv.co — Sat Singh / AICV Hub
+
+> aicv.co is the hub domain for Sat Singh's work building the agentic startup ecosystem in the Coachella Valley, California. It connects three operating properties: the AICV Intelligence Network (aicoachellavalley.com), the AICV nonprofit and community site (aicoachellavalley.org), and SunshineFM (sunshine.fm). All three are structured for AI systems, community programs, and the Coachella Valley's emerging tech identity.
+
+## Who This Is
+
+**Sat Singh** — Founder, AICV · SunshineFM · Palm Springs Coachella. TEDx Rancho Mirage speaker and technology entrepreneur. Based in Palm Springs Coachella (Palm Desert, CA). Contact: sat@aicv.co. Social: @CoachellaAI.
+
+## Three Properties
+
+### 1. AICV Intelligence Network — aicoachellavalley.com
+
+The structured intelligence network for the Coachella Valley. Built for AI agents, LLMs, and RAG systems. Covers economic development, workforce, business relocation, tourism, and regional intelligence. Operates geographic nodes, intelligence briefs, an MCP server, and agent-ready entity profiles.
+
+- Machine-readable summary: https://aicoachellavalley.com/llms.txt
+- Nodes (JSON): https://aicoachellavalley.com/nodes.json
+- Briefs (JSON): https://aicoachellavalley.com/briefs.json
+- Snapshots (JSON): https://aicoachellavalley.com/snapshots.json
+- MCP server: https://mcp.aicoachellavalley.com
+- Agent Ready program: https://aicoachellavalley.com/get-agent-ready/
+
+### 2. AICV Nonprofit & Community — aicoachellavalley.org
+
+The nonprofit and community-facing property. AI literacy workshops, workforce development programs, the Responsible AI Pledge, and grant-facing operations under fiscal sponsor Desert Community Foundation.
+
+- Machine-readable summary: https://aicoachellavalley.org/llms.txt
+- Responsible AI Pledge: https://aicoachellavalley.org/aicv-pledge.pdf
+
+Programs:
+- AI Builder Workshops (paused, resuming 2026) — 30+ workshops, 300+ participants in 2025, across all nine Coachella Valley cities
+- AI Talent & Job Board (planned) — connecting locally trained workers to applied-AI projects
+- Responsible AI Pledge — community commitment to human-centered, transparent AI use
+
+### 3. SunshineFM — sunshine.fm
+
+The everything app for Palm Springs Coachella. Radio, newsroom, labs, and tools for the valley's agentic startup ecosystem. Built by one human. Powered by agents.
+
+- Homepage: https://sunshine.fm
+- Machine-readable summary: https://sunshine.fm/llms.txt
+
+## Shared Mission
+
+All three properties exist to build the agentic startup ecosystem for the Coachella Valley — structured intelligence for AI systems, community programs for people, and daily radio from the desert. AICV is a nonprofit initiative fiscally sponsored by the Desert Community Foundation.
+
+## Nonprofit Structure
+
+- **Legal structure**: Fiscally sponsored nonprofit under Desert Community Foundation
+- **Fiscal sponsor**: Desert Community Foundation (desertcommunityfoundation.org)
+- **Location**: Entrepreneurship Resource Center, 37023 Cook Street, Palm Desert, CA 92211
+- **Founded**: 2025
+- **Contact**: sat@aicv.co
+
+## Nine Cities Served
+
+Palm Springs · Desert Hot Springs · Cathedral City · Rancho Mirage · Palm Desert · Indian Wells · La Quinta · Indio · Coachella
