@@ -169,6 +169,7 @@
       border-radius: 5px;
       overflow: hidden;
       text-decoration: none;
+      border: 1px solid var(--border);
       transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
     .card:hover {
@@ -278,6 +279,16 @@
       border: 1px solid rgba(200,85,42,0.28);
       padding: 3px 8px;
       border-radius: 999px;
+    }
+    .pill--com {
+      color: var(--volt);
+      background: rgba(204,255,0,0.12);
+      border-color: rgba(204,255,0,0.28);
+    }
+    .pill--sfm {
+      color: var(--yellow);
+      background: rgba(255,216,77,0.1);
+      border-color: rgba(255,216,77,0.28);
     }
 
     /* — sunshine.fm preview — */
@@ -477,11 +488,7 @@
           <div class="preview-label__name">AI Coachella Valley</div>
           <span class="preview-label__sub">Intelligence Network &middot; Coachella Valley</span>
         </div>
-        <div class="preview-nodes">
-          <i style="width:11px;height:11px;opacity:0.9;"></i>
-          <i style="width:7px;height:7px;opacity:0.6;"></i>
-          <i style="width:5px;height:5px;opacity:0.35;"></i>
-        </div>
+        <div class="preview-pill pill--com">Agentic</div>
       </div>
       <div class="card__body">
         <div class="card__domain">aicoachellavalley.com</div>
@@ -515,11 +522,7 @@
   <a href="https://sunshine.fm" class="card card--sfm" target="_blank" rel="noopener" aria-label="Visit SunshineFM at sunshine.fm">
     <div class="card__preview">
       <div class="preview-wordmark">sunshine.fm</div>
-      <div class="preview-live">
-        <div class="preview-live__dot"></div>
-        <span class="preview-live__label">AI Radio</span>
-      </div>
-      <div class="preview-sfm-tag">The Human Layer</div>
+      <div class="preview-pill pill--sfm">Modern Media</div>
     </div>
     <div class="card__body">
       <div>
