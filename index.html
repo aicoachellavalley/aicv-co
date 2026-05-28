@@ -160,7 +160,8 @@
 
     /* ── CARD BASE ── */
     .card {
-      display: block;
+      display: flex;
+      flex-direction: column;
       border-radius: 5px;
       overflow: hidden;
       text-decoration: none;
@@ -328,6 +329,7 @@
     /* ── CARD BODIES ── */
     .card__body {
       padding: 18px 20px 20px;
+      flex: 1;
     }
     .card__domain {
       font-size: 0.6rem;
@@ -480,7 +482,7 @@
       <div class="card__body">
         <div class="card__domain">aicoachellavalley.com</div>
         <div class="card__title">AICV Intelligence Network</div>
-        <p class="card__desc">The agent-readable intelligence layer for the Coachella Valley. Structured nodes, regional briefs, and the AICV Network — built so AI systems accurately understand, cite, and route the valley.</p>
+        <p class="card__desc">The agent-readable intelligence network for the Coachella Valley. Structured nodes, regional briefs, and the AICV Network — built so AI systems accurately understand, cite, and route the valley.</p>
         <div class="card__cta">Visit the Network →</div>
       </div>
     </a>
