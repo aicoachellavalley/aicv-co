@@ -45,6 +45,8 @@ Allow: /
 # Content Signals — aicv.co is explicitly built for AI training, search, and agent use.
 Content-Signal: ai-train=yes, search=yes, ai-input=yes
 
+Sitemap: https://aicv.co/sitemap.xml
+
 # AI Agent Resources
 # Machine-readable hub summary: https://aicv.co/llms.txt
 # Intelligence Network (.com): https://aicoachellavalley.com/llms.txt

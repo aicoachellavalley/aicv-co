@@ -14,7 +14,7 @@
   <meta property="og:url" content="https://aicv.co/">
   <meta property="og:title" content="Sat Singh · aicv.co">
   <meta property="og:description" content="Building the agentic startup ecosystem for the Coachella Valley — structured intelligence for AI systems, community programs for people, and daily radio from the desert.">
-  <meta property="og:site_name" content="aicv.co">
+  <meta property="og:site_name" content="Sat Singh · AICV">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
@@ -23,67 +23,101 @@
   <meta name="twitter:site" content="@CoachellaAI">
 
   <!-- Schema -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Sat Singh",
-    "url": "https://aicv.co",
-    "email": "sat@aicv.co",
-    "jobTitle": "Founder, AI Coachella Valley & SunshineFM",
-    "description": "Founder of AI Coachella Valley (AICV) and SunshineFM. Building the agentic startup ecosystem for the Coachella Valley, California. TEDx Rancho Mirage speaker and technology entrepreneur.",
-    "homeLocation": {
-      "@type": "Place",
-      "name": "Palm Desert, California",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Palm Desert",
-        "addressRegion": "CA",
-        "addressCountry": "US"
-      }
-    },
-    "knowsAbout": ["Artificial Intelligence", "Regional AI Infrastructure", "AI Literacy", "Agentic Systems", "Community Technology", "Startup Ecosystems"],
-    "contactPoint": {
-      "@type": "ContactPoint",
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://aicv.co/#sat",
+      "name": "Sat Singh",
+      "url": "https://aicv.co",
+      "image": { "@id": "https://aicv.co/#headshot" },
       "email": "sat@aicv.co",
-      "contactType": "general inquiries",
-      "description": "For inquiries about AICV, the agentic startup ecosystem, or collaboration"
+      "jobTitle": "Founder",
+      "description": "Founder of AI Coachella Valley (AICV) and SunshineFM. Based in Rancho Mirage, California, building the agentic startup ecosystem for the Coachella Valley. Previously founded and sold a mobile gaming studio to king.com. TEDx Rancho Mirage speaker and technology entrepreneur.",
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Rancho Mirage, California",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Rancho Mirage",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      },
+      "knowsAbout": ["Artificial Intelligence", "Regional AI Infrastructure", "AI Literacy", "Agentic Systems", "Community Technology", "Startup Ecosystems"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "sat@aicv.co",
+        "contactType": "general inquiries",
+        "description": "For inquiries about AICV, the agentic startup ecosystem, or collaboration"
+      },
+      "founder": [
+        { "@id": "https://aicoachellavalley.org/#aicv" },
+        { "@id": "https://sunshine.fm/#org" }
+      ],
+      "worksFor": { "@id": "https://aicoachellavalley.org/#aicv" },
+      "sameAs": ["https://www.linkedin.com/in/satssp/"]
     },
-    "affiliation": [
-      {
-        "@type": "Organization",
-        "name": "AI Coachella Valley",
-        "alternateName": "AICV",
-        "url": "https://aicoachellavalley.com",
-        "description": "The intelligence network for the Coachella Valley, built for AI agents and LLMs.",
-        "areaServed": "Coachella Valley, California"
-      },
-      {
-        "@type": "Organization",
-        "name": "AI Coachella Valley Nonprofit",
-        "alternateName": "AICV",
-        "url": "https://aicoachellavalley.org",
-        "description": "The nonprofit and community face of AICV — AI literacy workshops, workforce development, and the Responsible AI Pledge. Fiscally sponsored by Desert Community Foundation.",
-        "areaServed": "Coachella Valley, California"
-      },
-      {
-        "@type": "Organization",
-        "name": "SunshineFM",
-        "url": "https://sunshine.fm",
-        "description": "The everything app for Palm Springs Coachella — radio, newsroom, labs, and tools for the valley's agentic startup ecosystem.",
-        "areaServed": "Coachella Valley, California"
-      }
-    ],
-    "sameAs": [
-      "https://aicoachellavalley.com",
-      "https://aicoachellavalley.org",
-      "https://sunshine.fm",
-      "https://x.com/CoachellaAI",
-      "https://youtu.be/oYG2kFC2_D4",
-      "https://www.tedxranchomirage.com/past-events"
-    ]
-  }
-  </script>
+    {
+      "@type": "ImageObject",
+      "@id": "https://aicv.co/#headshot",
+      "url": "https://aicv.co/sat-jun26-2026.jpeg",
+      "caption": "Sat Singh — Founder, AI Coachella Valley and SunshineFM",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://aicv.co/#website",
+      "url": "https://aicv.co",
+      "name": "Sat Singh · AICV",
+      "description": "The hub for Sat Singh's work — AI Coachella Valley, SunshineFM, and the Coachella Valley's agentic startup ecosystem.",
+      "publisher": { "@id": "https://aicv.co/#sat" }
+    },
+    {
+      "@type": ["Organization", "NGO"],
+      "@id": "https://aicoachellavalley.org/#aicv",
+      "name": "AI Coachella Valley",
+      "alternateName": "AICV",
+      "url": "https://aicoachellavalley.org",
+      "description": "A fiscally sponsored nonprofit initiative building the Coachella Valley's AI startup ecosystem, and the agent-native intelligence network at aicoachellavalley.com.",
+      "founder": { "@id": "https://aicv.co/#sat" },
+      "areaServed": "Coachella Valley, California",
+      "sponsor": { "@id": "https://desertfoundation.org/#dcf" },
+      "sameAs": ["https://aicoachellavalley.com", "https://x.com/CoachellaAI"]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://sunshine.fm/#org",
+      "name": "SunshineFM",
+      "url": "https://sunshine.fm",
+      "description": "AI-generated radio and media brand for the Palm Springs Coachella region.",
+      "founder": { "@id": "https://aicv.co/#sat" },
+      "areaServed": "Coachella Valley, California"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://desertfoundation.org/#dcf",
+      "name": "Desert Community Foundation",
+      "url": "https://desertfoundation.org",
+      "description": "Community foundation serving the Coachella Valley; fiscal sponsor of AI Coachella Valley."
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://youtu.be/oYG2kFC2_D4",
+      "name": "Sat Singh — TEDx Rancho Mirage",
+      "description": "TEDx Rancho Mirage talk, delivered August 5, 2025, on AI and 'unthinking' — the silent surrender of human memory, creativity, and agency to machines — and four human antidotes: nostalgia, gratitude, curiosity, and imagination.",
+      "thumbnailUrl": "https://img.youtube.com/vi/oYG2kFC2_D4/maxresdefault.jpg",
+      "uploadDate": "2025-09-04",
+      "contentUrl": "https://youtu.be/oYG2kFC2_D4",
+      "embedUrl": "https://www.youtube.com/embed/oYG2kFC2_D4",
+      "about": { "@id": "https://aicv.co/#sat" }
+    }
+  ]
+}
+</script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
