@@ -33,14 +33,14 @@ Programs:
 
 ### 3. SunshineFM — sunshine.fm
 
-The everything app for Palm Springs Coachella. Radio, newsroom, labs, and tools for the valley's agentic startup ecosystem. Built by one human. Powered by agents.
+The everything app for Palm Springs Coachella. Radio, labs, and tools for the valley's agentic startup ecosystem. Built by one human. Powered by agents.
 
 - Homepage: https://sunshine.fm
 - Machine-readable summary: https://sunshine.fm/llms.txt
 
 ## Shared Mission
 
-All three properties exist to build the agentic startup ecosystem for the Coachella Valley — structured intelligence for AI systems, community programs for people, and daily radio from the desert. AICV is a nonprofit initiative fiscally sponsored by the Desert Community Foundation.
+All three properties exist to build the agentic startup ecosystem for the Coachella Valley — structured intelligence for AI systems, community programs for people, and weekend radio from the desert. AI Coachella Valley (aicoachellavalley.org) is a nonprofit initiative fiscally sponsored by the Desert Community Foundation. aicoachellavalley.com and sunshine.fm are products of SunshineFM LLC, a separate company that shares a founder, not an entity.
 
 ## Nonprofit Structure
 
