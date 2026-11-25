@@ -1,0 +1,14 @@
+# aicv-co-daily-rebuild: a cron-only Worker that rebuilds aicv.co every morning.
+# Deploy from this folder (see README.md, "Daily refresh"). No routes, no workers.dev URL.
+name = "aicv-co-daily-rebuild"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = false
+preview_urls = false
+
+[triggers]
+# 13:00 UTC = 5 am Pacific in winter, 6 am in summer.
+crons = ["0 13 * * *"]
+
+[observability]
+enabled = true

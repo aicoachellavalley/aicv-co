@@ -11,15 +11,16 @@
  * The patterns are copied, not imported (separate repos); if one changes, change
  * both and re-run each repo's controls.
  *
- * SCOPE = every text file this repo serves (the repo root is the site), read
- * the way an agent reads it: tags joined, JSON-LD node by node, attribute text
- * included. A JSON-LD node whose own @id/url is on aicoachellavalley.org is
- * .org-scoped by structure, so .org's self-description passes there.
+ * SCOPE = every text file the site serves, i.e. the built output in dist/
+ * (scripts/build.mjs writes it from content/hub.json), read the way an agent
+ * reads it: tags joined, JSON-LD node by node, attribute text included. A
+ * JSON-LD node whose own @id/url is on aicoachellavalley.org is .org-scoped by
+ * structure, so .org's self-description passes there.
  *
- * Run: `node scripts/check-entity.mjs` (exit 1 on a violation). It runs on
- * every deploy only if the aicv-co Pages project's build command is set to it.
+ * Run: `node scripts/check-entity.mjs` after a build (exit 1 on a violation).
+ * scripts/build.mjs runs it as its last step, so every Pages deploy is checked.
  */
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, extname, relative } from 'node:path';
 
 const STATUS = new RegExp([
@@ -34,7 +35,11 @@ const ORG_SCOPE = /aicoachellavalley\.org|\bthe \.org\b/i;
 const sentences = (t) => t.split(/\n+|(?<=[.!?])\s+(?=[A-Z0-9"“(])/).map((s) => s.trim()).filter(Boolean);
 const violations = (t) => sentences(t).filter((s) => STATUS.test(s) && !ORG_SCOPE.test(s));
 
-const ROOT = new URL('../', import.meta.url).pathname;
+const ROOT = new URL('../dist/', import.meta.url).pathname;
+if (!existsSync(ROOT)) {
+  console.error('ENTITY CHECK: no dist/ folder. Run `node scripts/build.mjs` first (it runs this check itself).');
+  process.exit(1);
+}
 const SKIP = new Set(['.git', 'node_modules', 'scripts']);
 const walk = (d) => readdirSync(d, { withFileTypes: true }).flatMap((e) =>
   SKIP.has(e.name) ? [] : e.isDirectory() ? walk(join(d, e.name)) : [join(d, e.name)]);

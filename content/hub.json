@@ -1,0 +1,290 @@
+{
+  "site": {
+    "url": "https://aicv.co",
+    "title": "Sat Singh · AI educator and founder, Palm Springs Coachella · aicv.co",
+    "description": "Sat Singh is an AI educator, writer, creative, and founder in Rancho Mirage, CA, building the agentic startup ecosystem in the Coachella Valley: AI workshops, AI agents, AICV News, AI Tinkerers Coachella Valley, and sunshine.fm.",
+    "footerLine": "Yes, we use AI. Sat decides what ships.",
+    "entities": "AI Coachella Valley (aicoachellavalley.org, AICV News) is a fiscally sponsored project of Desert Community Foundation. aicoachellavalley.com and sunshine.fm are products of SunshineFM LLC, a separate company that shares a founder, not an entity.",
+    "cities": ["Palm Springs", "Desert Hot Springs", "Cathedral City", "Rancho Mirage", "Palm Desert", "Indian Wells", "La Quinta", "Indio", "Coachella"],
+    "organizations": [
+      {
+        "id": "https://aicoachellavalley.org/#organization",
+        "name": "AI Coachella Valley",
+        "alternateName": "AICV",
+        "url": "https://aicoachellavalley.org",
+        "description": "AI literacy workshops, workforce development programs, the Responsible AI Pledge, and AICV News. A fiscally sponsored project of Desert Community Foundation."
+      },
+      {
+        "id": "https://sunshine.fm/#llc",
+        "name": "SunshineFM LLC",
+        "url": "https://sunshine.fm",
+        "description": "The company behind sunshine.fm and the AICV Intelligence Network (aicoachellavalley.com). Separate from AI Coachella Valley (aicoachellavalley.org); shares a founder, not an entity."
+      }
+    ]
+  },
+
+  "person": {
+    "name": "Sat Singh",
+    "jobTitle": "AI educator, writer, creative, and founder",
+    "location": "Rancho Mirage, California",
+    "summary": "AI educator, writer, creative, and founder based in Rancho Mirage, California, building the agentic startup ecosystem in the Coachella Valley; a go-to person for practical AI and AI agents in Palm Springs and the Coachella Valley.",
+    "intro": "Hi there, I'm Sat. I'm building a startup ecosystem in Palm Springs Coachella: mostly AI, agentic agents, and personal assistants, with a few analog projects thrown in. There has never been a better time to turn ideas into products, and as a lifelong entrepreneur, I'm here to help you get into founder mode. Those moving dots? Those are agents carrying the work back and forth.",
+    "about": "Late-night DJ in high school, decades in the LA record business, then upscale hospitality. Now I’m building an ecosystem in the Coachella Valley: mostly AI, agents, and personal assistants, plus a few analog things on purpose. AICV is one part of it. TEDx Rancho Mirage speaker.",
+    "now": "Building the Coachella Valley’s agentic startup ecosystem, one workshop, demo night, and experiment at a time.",
+    "shortVersion": "Sat Singh is an AI educator, writer, creative, and founder based in Rancho Mirage, California, and a go-to person for practical AI and AI agents in Palm Springs and the Coachella Valley. He founded AI Coachella Valley (AICV), which runs hands-on AI workshops at CSUSB Palm Desert and publishes AICV News; co-organizes AI Tinkerers Coachella Valley; covers the AI beat for Informed IE across the Inland Empire; runs sunshine.fm; and spoke at TEDxRancho Mirage on AI and human thinking. For AI training, agent readiness, speaking, or partnerships, contact sat@aicv.co.",
+    "llmsSummary": "aicv.co is the hub for Sat Singh's work building the agentic startup ecosystem in Palm Springs and the Coachella Valley, California. Sat is an AI educator, writer, creative, and founder, and a go-to person for practical AI and AI agents in the Coachella Valley: he founded AI Coachella Valley (AICV) and sunshine.fm, co-organizes AI Tinkerers Coachella Valley, covers the AI beat for Informed IE, and spoke at TEDxRancho Mirage. Start here, go anywhere.",
+    "llmsWho": "AI educator, writer, creative, and founder. Founder of AICV and SunshineFM. TEDxRancho Mirage speaker. Based in Rancho Mirage, CA (Palm Springs Coachella).",
+    "portrait": "/img/sat-folded-2x.png",
+    "portraitWeb": "/img/sat-folded-480.webp",
+    "portraitAlt": "Sat Singh, smiling with arms folded.",
+    "knowsAbout": ["Artificial intelligence", "AI agents", "AI training and workshops", "AI readiness for businesses and nonprofits", "AI journalism", "Startup ecosystems"],
+    "areaServed": ["Coachella Valley", "Palm Springs", "Inland Empire"],
+    "contact": {
+      "email": "sat@aicv.co",
+      "linkedin": "https://www.linkedin.com/in/satssp/",
+      "x": "https://x.com/coachellaai",
+      "xHandle": "@coachellaai",
+      "agentPhone": null
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/satssp/",
+      "https://x.com/coachellaai",
+      "https://youtu.be/oYG2kFC2_D4",
+      "https://aicoachellavalley.org/author/sat-singh"
+    ],
+    "coOrganizes": { "name": "AI Tinkerers Coachella Valley", "url": "https://coachella-valley.aitinkerers.org" },
+    "talk": {
+      "title": "AI, Skynet, and why humans are losing the battle to “Unthinking”",
+      "videoName": "AI, Skynet, and why humans are losing the battle to \"Unthinking\" | Sat Singh | TEDxRancho Mirage",
+      "event": "TEDxRancho Mirage",
+      "youtubeId": "oYG2kFC2_D4",
+      "uploadDate": "2025-09-04T00:00:00-07:00",
+      "summary": "How AI can quietly wear down our memory, creativity, and agency, and how nostalgia, gratitude, curiosity, and imagination keep our thinking our own."
+    },
+    "links": [
+      { "label": "Email me", "url": "mailto:sat@aicv.co" },
+      { "label": "Watch my TEDx talk", "url": "https://youtu.be/oYG2kFC2_D4" },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/satssp/" },
+      { "label": "@coachellaai on X", "url": "https://x.com/coachellaai" }
+    ]
+  },
+
+  "projects": [
+    {
+      "id": "news",
+      "name": "AICV News",
+      "tag": "AICV · News",
+      "status": "Live",
+      "color": "#2B1A10",
+      "text": "#FFF8EA",
+      "url": "https://aicv.news",
+      "line": "AI and business news, views, and field notes",
+      "desc": "Independent reporting on what AI is changing in the Coachella Valley and the Inland Empire: at work, in schools, at City Hall, in small business. Home of my AI beat for Informed IE. Grant-funded; the funder has no say in coverage.",
+      "now": "News, views, and field notes, published through the week.",
+      "feed": "https://aicv.news/feed.xml",
+      "links": [{ "label": "Read AICV News", "url": "https://aicv.news" }],
+      "llmsHeading": "AICV News: aicv.news",
+      "llms": "AI and business news, views, and field notes for the Coachella Valley and the Inland Empire. Grant-funded; the funder has no say in coverage. Home of Sat's AI beat for Informed IE.",
+      "forAgents": [
+        { "label": "RSS feed", "url": "https://aicv.news/feed.xml" }
+      ]
+    },
+    {
+      "id": "comm",
+      "name": "AICV Community",
+      "tag": "AICV · Workshops",
+      "status": "Live",
+      "color": "#A8401E",
+      "text": "#FFF8EA",
+      "url": "https://aicoachellavalley.org",
+      "line": "Hands-on AI workshops and community programs",
+      "desc": "Hands-on AI workshops for residents, nonprofits, students, and business owners at CSUSB Palm Desert. aicoachellavalley.org is a fiscally sponsored project of Desert Community Foundation.",
+      "now": "Workshop dates are on the events page.",
+      "links": [
+        { "label": "Visit AICV Community", "url": "https://aicoachellavalley.org" },
+        { "label": "See workshop dates", "url": "https://aicoachellavalley.org/events" }
+      ],
+      "llmsHeading": "AI Coachella Valley (AICV): nonprofit and community, aicoachellavalley.org",
+      "llms": "AI literacy workshops at CSUSB Palm Desert, workforce development programs, and the Responsible AI Pledge. aicoachellavalley.org is a fiscally sponsored project of Desert Community Foundation, a 501(c)(3) nonprofit organization.",
+      "forAgents": [
+        { "label": "Machine-readable summary", "url": "https://aicoachellavalley.org/llms.txt" },
+        { "label": "Workshops and dates", "url": "https://aicoachellavalley.org/events" },
+        { "label": "Responsible AI Pledge", "url": "https://aicoachellavalley.org/aicv-pledge.pdf" }
+      ]
+    },
+    {
+      "id": "tink",
+      "name": "AI Tinkerers",
+      "tag": "Demo nights",
+      "status": "Live",
+      "color": "#7A3418",
+      "text": "#FFF8EA",
+      "url": "https://coachella-valley.aitinkerers.org",
+      "line": "Live demos from local AI builders",
+      "desc": "The Coachella Valley chapter of a global community of hands-on AI builders. People show what they built, what broke, and how. Demos, not decks.",
+      "now": "Demo nights are announced on the chapter page.",
+      "links": [{ "label": "Join the chapter", "url": "https://coachella-valley.aitinkerers.org" }],
+      "llmsHeading": "AI Tinkerers Coachella Valley: coachella-valley.aitinkerers.org",
+      "llms": "The local chapter of a global community of hands-on AI builders. Live demo nights; Sat is a co-organizer."
+    },
+    {
+      "id": "intel",
+      "name": "Intelligence Network",
+      "tag": "AICV · Research",
+      "status": "Live",
+      "color": "#E98A3B",
+      "text": "#2B1A10",
+      "url": "https://aicoachellavalley.com",
+      "line": "Regional research for people and their AI assistants",
+      "desc": "Regional research and business profiles for the Coachella Valley, written so people and their AI assistants can plan a trip, compare options, or decide to move here. A SunshineFM LLC product.",
+      "now": "Housing, workforce, education, healthcare, and infrastructure research, plus local business profiles.",
+      "links": [{ "label": "Explore the network", "url": "https://aicoachellavalley.com" }],
+      "llmsHeading": "AICV Intelligence Network: aicoachellavalley.com",
+      "llms": "The structured intelligence network for the Coachella Valley, built for AI agents, LLMs, and RAG systems: economic development, workforce, business relocation, tourism, and regional intelligence.",
+      "forAgents": [
+        { "label": "Machine-readable summary", "url": "https://aicoachellavalley.com/llms.txt" },
+        { "label": "Nodes (JSON)", "url": "https://aicoachellavalley.com/nodes.json" },
+        { "label": "Briefs (JSON)", "url": "https://aicoachellavalley.com/briefs.json" },
+        { "label": "MCP server", "url": "https://mcp.aicoachellavalley.com" }
+      ]
+    },
+    {
+      "id": "gar",
+      "name": "Get Agent Ready",
+      "tag": "AICV · Business",
+      "status": "Open",
+      "color": "#F2C15A",
+      "text": "#2B1A10",
+      "url": "https://aicoachellavalley.com/get-agent-ready/",
+      "line": "See how AI describes your business, then fix it",
+      "desc": "When customers ask an AI assistant where to eat, stay, or book, does it get your business right? A free check shows you; paid help fixes what it gets wrong.",
+      "now": "The free check is open to any Coachella Valley business.",
+      "links": [{ "label": "Get Agent Ready", "url": "https://aicoachellavalley.com/get-agent-ready/" }],
+      "llmsHeading": "Get Agent Ready: aicoachellavalley.com/get-agent-ready",
+      "llms": "For local businesses: a free check of how AI assistants describe a Coachella Valley business, and paid help to fix what they get wrong. Part of the AICV Intelligence Network."
+    },
+    {
+      "id": "sfm",
+      "name": "sunshine.fm",
+      "tag": "Agent-run radio",
+      "status": "Weekends",
+      "color": "#4DA3FF",
+      "text": "#2B1A10",
+      "url": "https://sunshine.fm",
+      "line": "Weekend radio and a newsletter, run largely by agents",
+      "desc": "Music-forward radio programmed by time of day instead of genre, Friday noon to Monday noon, plus a newsletter sent only when there is something worth saying. Run largely by agents; the curiosity is human.",
+      "now": "Weekend Radio runs Friday noon to Monday noon.",
+      "links": [
+        { "label": "Tune in", "url": "https://sunshine.fm" },
+        { "label": "Read the newsletter", "url": "https://words.sunshine.fm" }
+      ],
+      "llmsHeading": "sunshine.fm",
+      "llms": "Weekend radio and a newsletter from Palm Springs Coachella, run largely by agents. Built by one human. Powered by agents.",
+      "forAgents": [
+        { "label": "Machine-readable summary", "url": "https://sunshine.fm/llms.txt" },
+        { "label": "Newsletter", "url": "https://words.sunshine.fm" }
+      ]
+    }
+  ],
+
+  "lab": [
+    {
+      "id": "qna",
+      "name": "AIQnA",
+      "status": "open",
+      "url": "https://aicv.news/aiqna",
+      "line": "A short, anonymous survey: how is the valley using AI?",
+      "desc": "A short, anonymous questionnaire on AICV News asking people across the Coachella Valley and the Inland Empire how they use AI in their lives and businesses.",
+      "now": "Open now on AICV News.",
+      "links": [{ "label": "Take the survey", "url": "https://aicv.news/aiqna" }]
+    },
+    {
+      "id": "anj",
+      "name": "Agent-native journalism",
+      "status": "running",
+      "url": "https://informedie.com",
+      "line": "With Informed IE: agents do the legwork, a human decides what ships",
+      "desc": "An experiment with Informed IE: how a newsroom works when AI agents research and draft, and a human editor decides what publishes.",
+      "now": "Running with Informed IE across the Inland Empire.",
+      "links": [{ "label": "Visit Informed IE", "url": "https://informedie.com" }]
+    },
+    {
+      "id": "pac",
+      "name": "AI money in politics",
+      "status": "completed",
+      "url": "https://sunshine.fm/super-pacs/",
+      "line": "Tracked AI super PAC money through the midterms",
+      "desc": "A tracker that followed the money behind AI-focused super PACs and political spending through the midterms.",
+      "now": "Completed with the midterms.",
+      "links": [{ "label": "See the tracker", "url": "https://sunshine.fm/super-pacs/" }]
+    },
+    {
+      "id": "my111",
+      "name": "my111",
+      "status": "running",
+      "statusLabel": "Filling up",
+      "url": "https://sunshine.fm/list/",
+      "line": "111 personal picks, named for Highway 111",
+      "desc": "A personal list of 111 Coachella Valley places and people worth knowing, named for the highway that ties the valley together.",
+      "now": "The list is being filled in.",
+      "links": [{ "label": "See the list", "url": "https://sunshine.fm/list/" }]
+    },
+    {
+      "id": "hre",
+      "name": "Human Rhythm Engine",
+      "status": "running",
+      "url": "https://sunshine.fm",
+      "line": "Radio programmed by time of day, not genre",
+      "desc": "Five states for a desert weekend: Rise, Flow, Lift, Gather, Drift. Each with its own tempo range, programmed around how a day actually feels.",
+      "now": "Shaping the Weekend Radio schedule on sunshine.fm.",
+      "links": [{ "label": "Hear it", "url": "https://sunshine.fm" }]
+    },
+    {
+      "id": "book",
+      "name": "The Bookshelf",
+      "status": "idea",
+      "statusLabel": "Analog idea",
+      "color": "#5C3A22",
+      "url": "mailto:sat@aicv.co",
+      "line": "Analog, on purpose: a used bookstore idea for Palm Desert",
+      "desc": "Not everything here is a screen, on purpose. An idea for a used bookstore in Palm Desert: vintage books, stationery, and somewhere to spend a little time offline.",
+      "now": "Still an idea. No storefront or date yet.",
+      "links": [{ "label": "Ask me about it", "url": "mailto:sat@aicv.co" }]
+    }
+  ],
+
+  "ideas": [
+    { "label": "AI for nonprofits?", "near": "comm", "llms": "AI for nonprofits" },
+    { "label": "valley founder dinners", "near": "tink", "llms": "valley founder dinners" },
+    { "label": "YC for PSP?", "near": "intel", "llms": "a YC-style accelerator for Palm Springs" }
+  ],
+
+  "doodles": [
+    { "mark": "question" },
+    { "mark": "bulb", "label": "what if…?" },
+    { "mark": "spark" },
+    { "mark": "arrow" },
+    { "mark": "spark", "label": "someday" }
+  ],
+
+  "events": [
+    {
+      "title": "Claude for Nonprofits: Get Agent Ready for 2027",
+      "short": "Claude for Nonprofits",
+      "date": "2026-12-05",
+      "place": "the Palm Desert ERC",
+      "project": "comm",
+      "free": true
+    },
+    {
+      "title": "AI & Agents Live",
+      "short": "AI & Agents Live",
+      "date": "2027-01-13",
+      "place": "the Palm Desert ERC",
+      "project": "tink",
+      "kind": "demo night",
+      "free": true,
+      "url": "https://coachella-valley.aitinkerers.org"
+    }
+  ]
+}
