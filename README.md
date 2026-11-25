@@ -59,15 +59,21 @@ node scripts/check-links.mjs                         # check every outside link 
 ## Daily refresh
 
 `cron/` is a tiny Worker, `aicv-co-daily-rebuild`, that calls the Pages deploy hook at 13:00 UTC
-(5 am Pacific in winter, 6 am in summer). One-time setup, after the deploy hook exists:
+(5 am Pacific in winter, 6 am in summer).
+
+**Set up 2026-11-25:** deploy hook `daily-rebuild` (branch `main`) on the `aicv-co` Pages
+project; Worker deployed with that hook URL as its `DEPLOY_HOOK` secret. To redeploy the
+Worker after changing `cron/`:
 
 ```bash
 cd cron
 env -u CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID=52a9db008bc2f79a8e51e03797776476 wrangler deploy
-env -u CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID=52a9db008bc2f79a8e51e03797776476 wrangler secret put DEPLOY_HOOK
 ```
 
-(`env -u CLOUDFLARE_API_TOKEN` because the token exported in `~/.zshrc` can't see any account.)
+If the hook is ever deleted or replaced, put the new URL in with
+`wrangler secret put DEPLOY_HOOK` (same prefix). The hook URL can start a build, so keep it out
+of the repo. `env -u CLOUDFLARE_API_TOKEN` is there because the token exported in `~/.zshrc`
+can't see any account.
 
 ## Files
 
